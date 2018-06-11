@@ -312,7 +312,7 @@ function escapeRegExp(str: string): string {
 }
 
 /**
- * Whether or not a given character code maps to a decimal digit (1-9).
+ * Whether or not a given character code maps to a decimal digit (0-9).
  * @return {boolean}
  */
 function charCodeIsDigit(charCode: number): boolean {
