@@ -16,15 +16,11 @@ module.exports = {
 			{
 				test: /\.tsx?$/,
 				exclude: [/node_modules/, /stories/],
-				use: [
-					{
-						loader: "ts-loader",
-						options: {
-							transpileOnly: true
-						}
-					}
-				]
+				use: "ts-loader"
 			}
 		]
+	},
+	externals: {
+		react: "react",
 	}
 };
