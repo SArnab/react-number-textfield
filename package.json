@@ -4,15 +4,15 @@
   "description": "Controlled ReactJS component for entering currency amounts",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "storybook": "start-storybook -p 9000 -c .storybook"
   },
   "keywords": [
     "reactjs",
-    "currency",
-    "input"
+    "number",
+    "input",
+    "typescript"
   ],
   "author": "Shafique Arnab <shafiquearnab@gmail.com>",
   "license": "MIT",
