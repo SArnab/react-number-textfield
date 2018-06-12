@@ -1,7 +1,7 @@
 {
-  "name": "react-currency-textfield",
+  "name": "react-number-textfield",
   "version": "1.0.1",
-  "description": "Controlled ReactJS component for entering currency amounts",
+  "description": "Controlled ReactJS component for entering numbers.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
