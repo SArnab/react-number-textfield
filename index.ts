@@ -1,1 +1,1 @@
-export { default as NumberTextField } from "./src/NumberTextfield";
+export { default as NumberTextfield } from "./src/NumberTextfield";
