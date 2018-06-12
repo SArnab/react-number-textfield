@@ -2,7 +2,7 @@
   "name": "react-number-textfield",
   "version": "1.0.2",
   "description": "Controlled ReactJS component for entering numbers.",
-  "main": "index.js",
+  "main": "build/react-number-textfield.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
