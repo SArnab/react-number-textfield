@@ -8,7 +8,7 @@ module.exports = {
 		filename: "react-number-textfield.js",
 		path: path.resolve(__dirname, "build"),
 		library: "ReactNumberTextfield",
-		libraryTarget: "commonjs"
+		libraryTarget: "umd"
 	},
 	resolve: {
 		extensions: [".ts", ".tsx", ".js"]
