@@ -59,19 +59,17 @@ interface IParseResult {
 	number_value: number|undefined;
 }
 
-const defaultProps: IProps = {
-	decimal_character: ".",
-	group_separator: ",",
-	precision: 2,
-};
-
 const initialState: IState = {
 	string_value: "",
 };
 
 export default class NumberTextfield extends React.Component<IProps, IState> {
 
-	public static defaultProps = defaultProps;
+	public static defaultProps: IProps = {
+		decimal_character: ".",
+		group_separator: ",",
+		precision: 2,
+	};
 
 	public state = initialState;
 
