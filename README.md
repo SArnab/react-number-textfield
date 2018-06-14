@@ -39,5 +39,8 @@ Which character(s) should be used for grouping numbers every 3 digits. Most comm
 ## precision `number`
 Set the maximum number of decimal digits. Use 0 to disable decimals.
 
+## number `number`
+Set the number value to display in the textfield. Can be used to create a controlled textfield.
+
 ## didChangeNumber `function`
 Callback function that is executed every time the number value from the textfield changes. The function receives one argument: the number value from the textfield, or undefined if no number can be derived.
