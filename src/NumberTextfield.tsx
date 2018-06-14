@@ -314,5 +314,10 @@ function escapeRegExp(str: string): string {
  * @return {boolean}
  */
 function charCodeIsDigit(charCode: number): boolean {
-	return charCode >= 48 && charCode <= 57;
+	if (charCode >= 48) {
+		if (charCode <= 57) {
+			return true;
+		}
+	}
+	return false;
 }
