@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
 	context: __dirname,
-	devtool: "inline-source-map",
+	devtool: "source-map",
 	entry: path.resolve(__dirname, "index.ts"),
 	output: {
 		filename: "react-number-textfield.js",
