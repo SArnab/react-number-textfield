@@ -25,7 +25,7 @@ ReactJS component for accepting numerical input as a standard textfield
 # Props
 
 ## className `string`
-CSS classnames to apply to the field.
+CSS classes to apply to the input element.
 
 ## placeholder `string`
 Standard HTML placeholder attribute. This is the string displayed in the textfield when it is empty.
