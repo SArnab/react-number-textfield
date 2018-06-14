@@ -99,6 +99,15 @@ export default class NumberTextfield extends React.Component<IProps, IState> {
 		if (props.precision < 0 || props.precision % 1 !== 0) {
 			throw new Error("Maximum precision must be a positive integer.");
 		}
+
+		if (typeof props.number === "number") {
+			this.state = parseString(
+				props.number.toString(),
+				props.decimal_character,
+				props.group_separator,
+				props.precision
+			);
+		}
 	}
 
 	public render() {
